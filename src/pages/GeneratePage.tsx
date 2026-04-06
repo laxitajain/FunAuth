@@ -68,8 +68,8 @@ export default function GeneratePage() {
 
   return (
     <div className="min-h-screen pt-28 pb-12">
-      <div className="container mx-auto px-6">
-        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mb-8">
+      <div className="container mx-auto px-6 max-w-6xl">
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mb-8 text-center">
           <h1 className="font-display text-3xl tracking-widest text-primary mb-2">
             SHARE GENERATION
           </h1>
@@ -79,7 +79,7 @@ export default function GeneratePage() {
         </motion.div>
 
         {/* Scheme Selection */}
-        <div className="flex gap-2 mb-8">
+        <div className="flex gap-2 mb-8 justify-center flex-wrap">
           {([
             { id: "naor-shamir" as Scheme, label: "NAOR-SHAMIR (2,2)" },
             { id: "xor" as Scheme, label: "XOR COMPUTATIONAL" },
@@ -99,7 +99,7 @@ export default function GeneratePage() {
           ))}
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className={`grid gap-8 ${stats ? "lg:grid-cols-2" : "max-w-4xl mx-auto"}`}>
           {/* Upload Zone */}
           <div>
             <div
