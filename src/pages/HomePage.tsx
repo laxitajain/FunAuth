@@ -28,8 +28,9 @@ export default function HomePage() {
             VISUAL CRYPTOGRAPHY AUTHENTICATION
           </p>
           <p className="font-mono text-sm text-muted-foreground max-w-xl mx-auto mb-8">
-            Secure image-based authentication using classical Naor-Shamir (2,2) visual cryptography,
-            XOR computational schemes, and color RGB splitting.
+            Secure image-based authentication using classical Naor-Shamir (2,2)
+            visual cryptography, XOR computational schemes, and color RGB
+            splitting.
           </p>
           <div className="flex items-center justify-center gap-4">
             <Link

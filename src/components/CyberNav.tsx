@@ -20,17 +20,17 @@ export default function CyberNav() {
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ type: "spring", stiffness: 200, damping: 25 }}
-        className="flex items-center gap-3 px-5 py-3 rounded-full bg-card/90 backdrop-blur-xl border border-border shadow-lg"
+        className="flex items-center gap-2 px-4 py-2 rounded-full bg-card/90 backdrop-blur-xl border border-border shadow-lg"
       >
         {/* Logo */}
         <Link
           to="/"
-          className="flex items-center justify-center h-12 w-12 rounded-full shrink-0 overflow-hidden"
+          className="flex items-center justify-center h-10 w-10 rounded-full shrink-0 overflow-hidden"
         >
           <img
             src={logo}
             alt="FunAuth logo"
-            className="h-12 w-12 object-contain"
+            className="h-10 w-10 object-contain"
           />
         </Link>
 
@@ -42,7 +42,7 @@ export default function CyberNav() {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`px-5 py-2.5 font-display text-base tracking-wider transition-all duration-300 rounded-full whitespace-nowrap ${
+                className={`px-4 py-2 font-display text-base tracking-wider transition-all duration-300 rounded-full whitespace-nowrap ${
                   active
                     ? "text-primary bg-primary/10"
                     : "text-muted-foreground hover:text-primary"
@@ -57,7 +57,7 @@ export default function CyberNav() {
         {/* Docs pill */}
         <Link
           to="/docs"
-          className={`flex items-center gap-2 px-6 py-2.5 rounded-full border shrink-0 font-display text-base tracking-wider transition-all duration-300 ${
+          className={`flex items-center gap-2 px-5 py-2 rounded-full border shrink-0 font-display text-sm tracking-wider transition-all duration-300 ${
             location.pathname === "/docs"
               ? "border-primary text-primary-foreground bg-primary/40"
               : "border-primary/40 bg-primary/20 text-primary hover:bg-primary/30"
