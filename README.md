@@ -1,15 +1,8 @@
 <div align="center">
-<table>
-<tr>
-<td width="80">
-<img src="src/assets/logo.png" alt="FunAuth logo" width="60">
-</td>
-<td>
-<h1>FunAuth</h1>
-</td>
-</tr>
-</table>
-
+<h1 align="center">
+  <img src="src/assets/logo.png" width="60" alt="FunAuth logo">&nbsp;&nbsp;&nbsp;
+  FunAuth
+</h1>
   <p><strong>Visual cryptography for authentication, presented as a polished interactive web experience.</strong></p>
   <p>
     FunAuth turns cryptographic theory into something tangible: generate shares, reconstruct secrets,
