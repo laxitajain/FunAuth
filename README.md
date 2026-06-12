@@ -14,7 +14,7 @@
     <a href="#overview">Overview</a> ·
     <a href="#theory-in-brief">Theory</a> ·
     <a href="#quick-start">Quick Start</a> ·
-    <a href="https://fun-auth-7zrd-bitexxlnb-laxita-jain-s-projects.vercel.app/docs">Live Docs</a>
+    <a href="https://fun-auth-7zrd-bitexxlnb-laxita-jain-s-projects.vercel.app">Live Docs</a>
   </p>
 
   <p>
@@ -65,7 +65,7 @@ In practical terms, FunAuth uses these schemes to show how a user-held share and
 
 The full documentation is available on the deployed site:
 
-- Live docs: https://fun-auth-7zrd-bitexxlnb-laxita-jain-s-projects.vercel.app/docs
+- Live docs: https://fun-auth-7zrd-bitexxlnb-laxita-jain-s-projects.vercel.app (head to the docs tab)
 - Docs implementation: [src/pages/DocsPage.tsx](src/pages/DocsPage.tsx)
 - Navigation entry: [src/components/CyberNav.tsx](src/components/CyberNav.tsx)
 
