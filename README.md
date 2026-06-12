@@ -1,4 +1,3 @@
-<div align="center">
   <div align="center">
   <img src="src/assets/logo.png" alt="FunAuth logo" width="120" />
 
